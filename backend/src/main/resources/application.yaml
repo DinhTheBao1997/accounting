@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: accounting
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: password
+    hikari:
+      pool-name: SpringBootBoilerplateHikariPool
